@@ -1,6 +1,7 @@
+#! /usr/bin/env node
 import inquirer from 'inquirer';
-import chalk, { Chalk } from 'chalk';
-import chalkAnimation, { karaoke } from 'chalk-animation';
+import chalk from 'chalk';
+import chalkAnimation from 'chalk-animation';
 
 let secretNumber = Math.floor(Math.random() * 10) + 1; // Random number between 1 and 10
 let attempts = 0;

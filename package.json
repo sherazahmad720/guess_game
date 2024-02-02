@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "guess-game-sherazi",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Guess Game by Sherazi",
   "main": "index.js",
   "bin": {

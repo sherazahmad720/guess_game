@@ -14,11 +14,11 @@ const playGame = async () => {
             name: 'userGuess',
             message: 'Guess a number:',
         });
-        attempts++;
         if (isNaN(userGuess)) {
             console.log(chalk.red('Invalid input. Please enter a number.'));
             continue;
         }
+        attempts++;
         if (userGuess < secretNumber) {
             console.log(chalk.magentaBright(`Too low! Try again.\n You have ${3 - attempts} attempts left.`));
         }
